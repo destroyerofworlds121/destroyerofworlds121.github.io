@@ -7,7 +7,7 @@
 <h1> Hangman! </h1> 
 <script>  
 //create a list of words to choose from 
-var words = ["javascript", "monkey", "amazing", "pancake", "supercalifragilisticexpialidocious"]; 
+var words = ["javascript", "monkey", "amazing", "pancake", "supercalifragilisticexpialidocious", "popcorn", "soda", "KFC"]; 
 
 //pick a random word 
 var word= words[Math.floor(Math.random() *words.length)]; 
@@ -35,7 +35,7 @@ var word= words[Math.floor(Math.random() *words.length)];
  break; 
  }else if(guess.length !== 1) 
  { 
- alert("you must enter only a SINGLE letter."
+ alert("you must enter only a SINGLE letter.");
  }else{ 
  //they have guessed a letter, is it in the word? 
  for(var j = 0; j < word.length; j++) 
