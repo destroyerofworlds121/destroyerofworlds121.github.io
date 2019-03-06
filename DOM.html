@@ -12,7 +12,12 @@
 
  var newHeadingText = prompt("please provide a new heading:"); 
  $("#main-heading").text(newHeadingText);  
-   $("body").append("<p>This is a new paragraph.</p>");
+   $("body").append("<p>This is a new paragraph.</p>"); 
+   for (var i = 0, i < 3; i++) 
+   {  
+     var hobby = prompt("tell me about one of your hobbies"."); 
+                 $("body").append("<p>" + hobby + "</p>"); 
+   }
  </script> 
   
   </body> 
