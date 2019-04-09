@@ -16,7 +16,7 @@
   }; 
    
  //Let's create an instance of this object called tesla 
- var tesla = new Car(10,20); // x=10, y = 20 
+ var tesla = newCar(10,20); // x=10, y = 20 
   
  //Let's create a method to draw a car 
  var drawCar = function(car) 
@@ -30,8 +30,14 @@
  $("body").append(carElement);
  }; 
  drawCar(tesla); 
- var nissan = new Car(100, 200); 
- drawCar(nissan);
+ var nissan = newCar(100, 200); 
+ drawCar(nissan); 
+   var toyota = newCar (300, 400) 
+   drawCar(toyota); 
+   var ford = newCar (500, 600) 
+   drawCar(ford); 
+   var chevy = newCar (700, 800) 
+   drawCar(chevy)
   </script>
  </body> 
  </html>
